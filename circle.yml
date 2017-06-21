@@ -4,6 +4,3 @@ machine:
 dependencies:
   override:
     - yarn
-  post:
-    - npm run build
-    - docker build -t $AWS_ACCOUNT_ID.dkr.ecr.us-west-2.amazonaws.com/popart/bam:$CIRCLE_SHA1 .
