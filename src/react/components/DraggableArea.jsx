@@ -30,6 +30,14 @@ class DraggableAreaComponent extends React.Component {
                 id: 'a',
                 top: 0,
                 left: 0,
+            }, {
+                id: 'b',
+                top: 10,
+                left: 200,
+            }, {
+                id: 'c',
+                top: 100,
+                left: 300,
             }],
         }
     }
@@ -49,7 +57,7 @@ class DraggableAreaComponent extends React.Component {
     render() {
         const { connectDropTarget } = this.props
 
-        return connectDropTarget(<div style={{ width: '100%', height: '100%', position: 'relative' }}>
+        return connectDropTarget(<div style={{ width: '100%', height: '100%', position: 'fixed' }}>
             {this.state.windows.map(window => <DraggableWindow key={window.id} id={window.id} top={window.top} left={window.left} />)}
         </div>)
     }

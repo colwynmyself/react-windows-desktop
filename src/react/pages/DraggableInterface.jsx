@@ -5,7 +5,7 @@ import { DragDropContext } from 'react-dnd'
 import { DraggableArea } from '../components/DraggableArea.jsx'
 
 function DraggableInterfaceComponent() {
-    return (<div style={{ width: '100%', height: '100%', position: 'fixed' }}>
+    return (<div style={{ width: '100%', height: '100%', position: 'fixed', border: '1px solid #eee' }}>
         <DraggableArea />
     </div>)
 }
