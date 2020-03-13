@@ -25,7 +25,7 @@
 		"react-dnd": "^2.4.0",
 		"react-dnd-html5-backend": "^2.4.1",
 		"react-dom": "^15.5.4",
-		"spectacle": "^2.1.0",
+		"spectacle": "^3.0.0",
 		"uuid": "^3.0.1"
 	},
 	"devDependencies": {
