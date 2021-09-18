@@ -14,7 +14,7 @@
 	"author": "Colwyn Fritze-Moor <colwyn.fritze-moor@popart.com>",
 	"dependencies": {
 		"caniuse-api": "^1.5.2",
-		"chalk": "^1.1.3",
+		"chalk": "^2.0.0",
 		"debug": "^2.6.6",
 		"express": "^4.15.2",
 		"express-handlebars": "^3.0.0",
